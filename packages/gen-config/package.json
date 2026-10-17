@@ -1,0 +1,16 @@
+{
+  "name": "@esc/gen-config",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Configurações compartilhadas de TypeScript do monorepo",
+  "files": [
+    "tsconfig.base.json",
+    "tsconfig.react.json"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esc-software/gen.git",
+    "directory": "packages/gen-config"
+  }
+}

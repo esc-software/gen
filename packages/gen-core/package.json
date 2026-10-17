@@ -1,0 +1,46 @@
+{
+  "name": "@esc/gen-core",
+  "version": "0.1.0",
+  "description": "Contrato, registro e metadados das ferramentas do ESC Gen (defineTool, createRegistry).",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "prepack": "bun run build"
+  },
+  "dependencies": {
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.24.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "gen",
+    "esc",
+    "tools",
+    "zod",
+    "registry"
+  ],
+  "license": "MIT",
+  "author": "ESC Software",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esc-software/gen.git",
+    "directory": "packages/gen-core"
+  }
+}

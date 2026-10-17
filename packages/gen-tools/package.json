@@ -1,0 +1,74 @@
+{
+  "name": "@esc/gen-tools",
+  "version": "0.1.0",
+  "description": "Mais de 170 geradores, validadores, conversores, calculadoras e ferramentas de PDF/planilhas/imagens do ESC Gen (pt-BR).",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "prepack": "bun run build"
+  },
+  "dependencies": {
+    "@cantoo/pdf-lib": "^2.3.2",
+    "@esc/gen-core": "workspace:*",
+    "@esc/gen-utils": "workspace:*",
+    "@noble/hashes": "^1.8.0",
+    "bwip-js": "^4.5.0",
+    "csso": "^5.0.5",
+    "exceljs": "^4.4.0",
+    "fast-png": "^6.2.0",
+    "fast-xml-parser": "^5.7.0",
+    "fflate": "^0.8.2",
+    "jpeg-js": "^0.4.4",
+    "js-beautify": "^1.15.1",
+    "papaparse": "^5.4.1",
+    "pdfjs-dist": "^4.10.38",
+    "prettier": "^3.3.3",
+    "qrcode": "^1.5.4",
+    "sql-formatter": "^15.4.0",
+    "yaml": "^2.6.0",
+    "zod": "^3.23.8"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@types/csso": "^5.0.4",
+    "@types/js-beautify": "^1.14.3",
+    "@types/papaparse": "^5.3.15",
+    "@types/qrcode": "^1.5.5",
+    "zod-to-json-schema": "^3.24.0"
+  },
+  "keywords": [
+    "gen",
+    "esc",
+    "cpf",
+    "cnpj",
+    "pdf",
+    "generator",
+    "validator",
+    "calculator",
+    "brasil"
+  ],
+  "license": "MIT",
+  "author": "ESC Software",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esc-software/gen.git",
+    "directory": "packages/gen-tools"
+  }
+}

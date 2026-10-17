@@ -1,0 +1,25 @@
+{
+  "extends": "../../packages/gen-config/tsconfig.base.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node10",
+    "verbatimModuleSyntax": false,
+    "customConditions": null,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@esc/gen-core": [
+        "../../packages/gen-core/dist/index.d.ts"
+      ],
+      "@esc/gen-tools": [
+        "../../packages/gen-tools/dist/index.d.ts"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "src/**/*.test.ts"
+  ]
+}

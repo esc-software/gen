@@ -1,0 +1,77 @@
+{
+  "name": "esc-gen",
+  "version": "0.1.0",
+  "description": "Ferramentas do Gen (ESC Software) no terminal: geradores e validadores de CPF, CNPJ e outros, calculadoras, conversores, PDF e imagens. Local, sem rede.",
+  "type": "module",
+  "bin": {
+    "gen": "./dist/bin.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "bun src/bin.ts",
+    "typecheck": "tsc -p tsconfig.json",
+    "build": "node esbuild.mjs",
+    "test": "vitest run",
+    "prepack": "node esbuild.mjs"
+  },
+  "dependencies": {
+    "@cantoo/pdf-lib": "^2.3.2",
+    "@noble/hashes": "^1.8.0",
+    "bwip-js": "^4.5.0",
+    "commander": "^13.0.0",
+    "csso": "^5.0.5",
+    "exceljs": "^4.4.0",
+    "fast-png": "^6.2.0",
+    "fast-xml-parser": "^5.7.0",
+    "fflate": "^0.8.2",
+    "jpeg-js": "^0.4.4",
+    "js-beautify": "^1.15.1",
+    "papaparse": "^5.4.1",
+    "prettier": "^3.3.3",
+    "qrcode": "^1.5.4",
+    "sql-formatter": "^15.4.0",
+    "yaml": "^2.6.0",
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.24.0"
+  },
+  "devDependencies": {
+    "@cantoo/pdf-lib": "^2.3.2",
+    "@esc/gen-core": "workspace:*",
+    "@esc/gen-tools": "workspace:*",
+    "esbuild": "^0.25.0"
+  },
+  "keywords": [
+    "gen",
+    "esc-software",
+    "cli",
+    "cpf",
+    "cnpj",
+    "gerador-de-cpf",
+    "validador",
+    "calculadora",
+    "pdf",
+    "brasil",
+    "dados-de-teste"
+  ],
+  "license": "MIT",
+  "author": "ESC Software (https://esc-software.com)",
+  "homepage": "https://gen.esc-software.com/cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esc-software/gen.git",
+    "directory": "apps/cli"
+  },
+  "bugs": {
+    "url": "https://github.com/esc-software/gen/issues"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

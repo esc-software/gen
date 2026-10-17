@@ -1,0 +1,31 @@
+{
+  "name": "gen",
+  "private": true,
+  "type": "module",
+  "description": "Gen (ESC Software): CLI, extensão do VS Code e as bibliotecas das ferramentas",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build:libs": "bun run --filter '@esc/gen-core' --filter '@esc/gen-utils' --filter '@esc/gen-validation' build && bun run --filter '@esc/gen-tools' build",
+    "typecheck": "bun run build:libs && bun run --filter '*' typecheck",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "build:cli": "bun run --filter 'esc-gen' build",
+    "build:vscode": "bun run --filter 'gen-vscode' build",
+    "package:vscode": "bun run --filter 'gen-vscode' package"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.5.0",
+    "eslint": "^9.17.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.18.0",
+    "vitest": "^4.1.11"
+  }
+}

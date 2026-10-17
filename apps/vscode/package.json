@@ -1,0 +1,134 @@
+{
+  "name": "gen-vscode",
+  "displayName": "Gen (ESC Software)",
+  "publisher": "esc-software",
+  "version": "0.1.0",
+  "description": "Geradores, validadores e conversores do ESC Gen dentro do VS Code: UUID, CPF/CNPJ de teste, senhas, Base64, JSON e mais de 100 ferramentas pelo comando \"Gen: Executar ferramenta\".",
+  "main": "./out/extension.js",
+  "engines": {
+    "vscode": "^1.90.0",
+    "node": ">=20.0.0"
+  },
+  "activationEvents": [],
+  "contributes": {
+    "commands": [
+      {
+        "command": "gen.runTool",
+        "title": "Gen: Executar ferramenta…",
+        "category": "Gen"
+      },
+      {
+        "command": "gen.generateUuid",
+        "title": "Gen: Gerar UUID",
+        "category": "Gen"
+      },
+      {
+        "command": "gen.generateCpf",
+        "title": "Gen: Gerar CPF de teste",
+        "category": "Gen"
+      },
+      {
+        "command": "gen.generateCnpj",
+        "title": "Gen: Gerar CNPJ de teste",
+        "category": "Gen"
+      },
+      {
+        "command": "gen.generatePassword",
+        "title": "Gen: Gerar senha forte",
+        "category": "Gen"
+      },
+      {
+        "command": "gen.base64Encode",
+        "title": "Gen: Codificar seleção em Base64",
+        "category": "Gen"
+      },
+      {
+        "command": "gen.base64Decode",
+        "title": "Gen: Decodificar Base64 da seleção",
+        "category": "Gen"
+      },
+      {
+        "command": "gen.formatJson",
+        "title": "Gen: Formatar JSON da seleção",
+        "category": "Gen"
+      },
+      {
+        "command": "gen.minifyJson",
+        "title": "Gen: Minificar JSON da seleção",
+        "category": "Gen"
+      },
+      {
+        "command": "gen.slugify",
+        "title": "Gen: Transformar seleção em slug",
+        "category": "Gen"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "gen.base64Encode",
+          "when": "editorHasSelection",
+          "group": "gen@0"
+        },
+        {
+          "command": "gen.base64Decode",
+          "when": "editorHasSelection",
+          "group": "gen@1"
+        },
+        {
+          "command": "gen.formatJson",
+          "when": "editorHasSelection",
+          "group": "gen@2"
+        },
+        {
+          "command": "gen.slugify",
+          "when": "editorHasSelection",
+          "group": "gen@3"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "build": "node esbuild.mjs",
+    "package": "bunx @vscode/vsce package --no-dependencies",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.90.0",
+    "esbuild": "^0.25.0",
+    "@esc/gen-core": "workspace:*",
+    "@esc/gen-tools": "workspace:*"
+  },
+  "categories": [
+    "Snippets",
+    "Formatters",
+    "Other"
+  ],
+  "keywords": [
+    "uuid",
+    "cpf",
+    "cnpj",
+    "base64",
+    "json",
+    "gerador",
+    "brasil"
+  ],
+  "license": "MIT",
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
+  "author": "ESC Software (https://esc-software.com)",
+  "homepage": "https://gen.esc-software.com/vscode",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esc-software/gen.git",
+    "directory": "apps/vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/esc-software/gen/issues"
+  }
+}
