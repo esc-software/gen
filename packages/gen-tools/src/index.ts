@@ -41,6 +41,10 @@ import { cronTool } from './cron.js';
 import { textDiffTool } from './text-diff.js';
 import { jsonCsvTool, yamlJsonTool } from './convert-tools.js';
 import { boletoValidatorTool } from './boleto.js';
+import { bankAccountTool } from './bank-account.js';
+import { carbonFootprintTool } from './carbon.js';
+import { currencyTool, publicIpTool } from './remote-tools.js';
+import { pdfToWordTool, wordToPdfTool } from './office-pdf.js';
 import { cltVsPjTool, employeeCostTool, fixedIncomeTool, markupTool, meiDasTool } from './money-tools.js';
 import { fgtsTool, incomeTaxTool, inssTool, netSalaryTool, nightShiftTool, overtimeTool, thirteenthTool, transportVoucherTool, vacationTool } from './payroll.js';
 import { domesticTerminationTool, pjSalaryTool, retirementTool, terminationTool } from './payroll2.js';
@@ -128,6 +132,7 @@ export const tools: readonly Tool[] = [
   jwtTool, lotteryTool, quadraticTool, gcdLcmTool, romanTool, lineListTool, xmlJsonTool,
   // novas (tráfego): calculadoras de dinheiro, boleto e utilidades de desenvolvimento
   cltVsPjTool, employeeCostTool, meiDasTool, markupTool, fixedIncomeTool, boletoValidatorTool,
+  bankAccountTool, carbonFootprintTool, currencyTool, publicIpTool, pdfToWordTool, wordToPdfTool,
   hmacTool, ulidTool, cronTool, chmodTool, pxRemTool, textDiffTool, htmlEntitiesTool, yamlJsonTool, jsonCsvTool, morseTool,
   inssTool, incomeTaxTool, netSalaryTool, thirteenthTool, vacationTool, fgtsTool, transportVoucherTool, overtimeTool, nightShiftTool,
   terminationTool, domesticTerminationTool, retirementTool, pjSalaryTool,
@@ -227,6 +232,11 @@ export * from './text-diff.js';
 export * from './convert-tools.js';
 export * from './boleto.js';
 export * from './money-tools.js';
+export * from './bank-account.js';
+export * from './carbon.js';
+export * from './remote.js';
+export * from './remote-tools.js';
+export * from './office-pdf.js';
 export * from './payroll.js';
 export * from './payroll2.js';
 export * from './payroll-data.js';

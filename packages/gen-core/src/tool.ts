@@ -1,6 +1,9 @@
 import { z } from 'zod';
 import { zodToJsonSchema } from 'zod-to-json-schema';
 import { categoryIdSchema, type CategoryId } from './categories.js';
+import type { InputField } from './input-field.js';
+
+export { defaultInput, type InputField } from './input-field.js';
 
 /**
  * Onde a ferramenta pode executar:
@@ -209,25 +212,6 @@ export function defineTool<S extends z.ZodTypeAny, O extends z.ZodTypeAny>(
   });
 }
 
-export interface InputField {
-  name: string;
-  label: string;
-  type: 'string' | 'number' | 'integer' | 'boolean' | 'file' | 'files';
-  accept?: string;
-  maxSizeMB?: number;
-  maxFiles?: number;
-  required: boolean;
-  help?: string;
-  placeholder?: string;
-  multiline?: boolean;
-  inputType?: 'date';
-  options?: string[];
-  optionLabels?: Record<string, string>;
-  default?: unknown;
-  min?: number;
-  max?: number;
-}
-
 /** Arquivo recebido da interface: nome, tipo MIME declarado e conteúdo em Base64 (sem o prefixo data:). */
 export const filePayloadSchema = z.object({
   name: z.string().min(1).max(255),
@@ -279,14 +263,4 @@ export function describeInput(tool: Tool): InputField[] {
     if (typeof prop.maximum === 'number') field.max = prop.maximum;
     return [field];
   });
-}
-
-/** Valores iniciais de um formulário: `default` do schema ou primeira opção de um enum. */
-export function defaultInput(fields: InputField[]): Record<string, unknown> {
-  const out: Record<string, unknown> = {};
-  for (const f of fields) {
-    if (f.default !== undefined) out[f.name] = f.default;
-    else if (f.options && f.options.length > 0 && f.required) out[f.name] = f.options[0];
-  }
-  return out;
 }

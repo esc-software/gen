@@ -4,7 +4,7 @@ import { Command, CommanderError } from 'commander';
 import { base64ToBytes, bytesToBase64, describeInput, type DownloadSpec, type InputField, type Tool } from '@esc/gen-core';
 import { registry } from '@esc/gen-tools';
 
-export const CLI_VERSION = '0.3.0';
+export const CLI_VERSION = '0.4.0';
 
 export interface CliIO {
   out: (text: string) => void;

@@ -15,7 +15,9 @@ describe('contrato do catálogo (vale para toda ferramenta registrada)', () => {
       expect(tool.documentation.length).toBeGreaterThan(40);
       // Ferramentas que recebem arquivos são exercitadas com arquivos gerados em seus próprios testes.
       const takesFiles = describeInput(tool).some((f) => f.type === 'file' || f.type === 'files');
-      if (!takesFiles) expect(tool.examples.length).toBeGreaterThan(0);
+      // As que só funcionam com a API não têm exemplo fixo (dependem de dados de fora); são testadas com um cliente simulado.
+      const apiOnly = tool.modes.every((m) => m === 'remote');
+      if (!takesFiles && !apiOnly) expect(tool.examples.length).toBeGreaterThan(0);
     });
 
     it.each(tool.examples.map((e, i) => [e.description ?? `exemplo ${i + 1}`, e] as const))(
@@ -50,7 +52,7 @@ describe('contrato do catálogo (vale para toda ferramenta registrada)', () => {
     });
 
     it('ferramentas ao vivo rodam no navegador', () => {
-      if (tool.live) expect(tool.modes).toContain('browser');
+      if (tool.live) expect(tool.modes.some((m) => m === 'browser' || m === 'remote')).toBe(true);
     });
 
     it('rejeita entrada de tipo inválido sem lançar', async () => {

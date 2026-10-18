@@ -9,6 +9,11 @@
       "source": "./src/index.ts",
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
+    },
+    "./modules/*": {
+      "source": "./src/*.ts",
+      "types": "./dist/*.d.ts",
+      "default": "./dist/*.js"
     }
   },
   "scripts": {
@@ -24,12 +29,14 @@
     "@noble/hashes": "^1.8.0",
     "bwip-js": "^4.5.0",
     "csso": "^5.0.5",
+    "docx": "^9.12.0",
     "exceljs": "^4.4.0",
     "fast-png": "^6.2.0",
     "fast-xml-parser": "^5.7.0",
     "fflate": "^0.8.2",
     "jpeg-js": "^0.4.4",
     "js-beautify": "^1.15.1",
+    "mammoth": "^1.13.0",
     "papaparse": "^5.4.1",
     "pdfjs-dist": "^4.10.38",
     "prettier": "^3.3.3",

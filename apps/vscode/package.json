@@ -2,7 +2,7 @@
   "name": "gen-vscode",
   "displayName": "Gen (ESC Software)",
   "publisher": "esc-software",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Geradores, validadores e conversores do ESC Gen dentro do VS Code: UUID, CPF/CNPJ de teste, senhas, Base64, JSON e mais de 100 ferramentas pelo comando \"Gen: Executar ferramenta\".",
   "main": "./out/extension.js",
   "engines": {

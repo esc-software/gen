@@ -2,7 +2,7 @@
 
 > Gerado do registro por `catalog-doc.ts`; não edite à mão. Para atualizar: `UPDATE_DOCS=1 bunx vitest run packages/gen-tools/src/catalog-doc.test.ts`.
 
-**201 ferramentas.** "CLI/API" indica que a ferramenta também roda no Node (CLI, API e extensão do VS Code); as marcadas "só navegador" dependem de recursos do navegador.
+**207 ferramentas.** "CLI/API" indica que a ferramenta também roda no Node (CLI, API e extensão do VS Code); as marcadas "só navegador" dependem de recursos do navegador.
 
 ## Geradores (47)
 
@@ -58,7 +58,7 @@ Dados de teste, identificadores, tokens e textos.
 | Gerador de HMAC (SHA-256, SHA-384 e SHA-512) | `hmac` | Calcula o HMAC de uma mensagem com uma chave secreta, em hexadecimal ou Base64, para assinar e conferir webhooks e APIs | navegador, CLI/API |
 | Gerador e Decodificador de ULID | `ulid` | Gera ULIDs (identificadores únicos ordenáveis por tempo) e descobre a data e a hora embutidas em um ULID | navegador, CLI/API |
 
-## Validadores (20)
+## Validadores (21)
 
 Documentos, formatos e estruturas.
 
@@ -84,6 +84,7 @@ Documentos, formatos e estruturas.
 | Verificador de Senha Forte | `senha-forte` | Avalia a força de uma senha e aponta o que melhorar, sem enviá-la a nenhum servidor | navegador, CLI/API |
 | Testador de Expressões Regulares | `regex` | Valida uma expressão regular (JavaScript) e mostra as correspondências e os grupos capturados | navegador, CLI/API |
 | Validador de Boleto (Linha Digitável e Código de Barras) | `validador-boleto` | Confere os dígitos verificadores da linha digitável ou do código de barras de um boleto e mostra banco, valor e vencimento | navegador, CLI/API |
+| Validador de Conta Bancária (Dígito Verificador) | `conta-bancaria` | Confere o dígito verificador da agência e da conta do Banco do Brasil, Bradesco e Itaú e calcula o dígito que falta | navegador, CLI/API |
 
 ## Contadores (5)
 
@@ -97,7 +98,7 @@ Palavras, caracteres, linhas e datas.
 | Contador de Sílabas | `contador-silabas` | Estima o número de sílabas de palavras e textos em português | navegador, CLI/API |
 | Contador de Dias entre Datas | `dias-entre-datas` | Calcula quantos dias, semanas, meses e anos existem entre duas datas | navegador, CLI/API |
 
-## Conversores (25)
+## Conversores (26)
 
 Codificações, unidades, datas e formatos.
 
@@ -122,6 +123,7 @@ Codificações, unidades, datas e formatos.
 | Codificador e Decodificador de URL | `url-encode` | Codifica e decodifica texto em formato de URL (percent-encoding) | navegador, CLI/API |
 | Conversor de Números Romanos | `numeros-romanos` | Converte números arábicos em romanos e romanos em arábicos, de 1 a 3999 | navegador, CLI/API |
 | Conversor de JSON para XML e XML para JSON | `json-xml` | Converte JSON em XML e XML em JSON, com indentação opcional e validação com linha e coluna do erro | navegador, CLI/API |
+| Conversor de Moedas (Cotação do Banco Central) | `moeda` | Converte reais, dólar, euro, libra, iene e outras moedas com a cotação PTAX do Banco Central, com a data da cotação à vista | só navegador |
 | Explicador de Expressão Cron | `cron` | Entende uma expressão cron de 5 campos em português e mostra as próximas execuções, com suporte a intervalos, listas, passos, nomes e atalhos como @daily | navegador, CLI/API |
 | Conversor de px para rem, em, pt e vw | `px-rem` | Converte tamanhos CSS entre pixels, rem, em, pontos, vw e porcentagem, com o tamanho base da fonte e a largura da tela que você escolher | navegador, CLI/API |
 | Codificar e Decodificar Entidades HTML | `html-entities` | Converte caracteres especiais e acentos em entidades HTML (&amp;, &aacute;, &#233;) e decodifica o caminho inverso | navegador, CLI/API |
@@ -129,7 +131,7 @@ Codificações, unidades, datas e formatos.
 | Conversor de JSON para CSV | `json-csv` | Converte uma lista de objetos JSON em CSV para abrir no Excel ou Google Planilhas, com colunas aninhadas achatadas (a.b) e proteção contra fórmulas | navegador, CLI/API |
 | Tradutor de Código Morse | `codigo-morse` | Traduz texto para código Morse e Morse para texto, com a tabela internacional de letras, números e pontuação | navegador, CLI/API |
 
-## Calculadoras (70)
+## Calculadoras (71)
 
 Finanças, saúde, trabalho e dia a dia.
 
@@ -191,6 +193,7 @@ Finanças, saúde, trabalho e dia a dia.
 | Calculadora do DAS MEI (valor da guia mensal) | `das-mei` | Mostra o valor do DAS do MEI por atividade (comércio, serviços ou os dois), o custo no ano, o limite de faturamento e o que acontece se passar dele | navegador, CLI/API |
 | Calculadora de Markup e Preço de Venda | `markup` | Calcula o preço de venda a partir do custo, dos impostos, da comissão e da margem de lucro desejada, e mostra a diferença entre markup e margem | navegador, CLI/API |
 | Simulador de CDB, LCI/LCA e Poupança | `renda-fixa` | Compara quanto rendem CDB, LCI/LCA e poupança no mesmo prazo, já descontado o imposto de renda regressivo, com as taxas que você informar | navegador, CLI/API |
+| Calculadora de Pegada de Carbono (Energia, Carro e Gás) | `pegada-carbono` | Estima as emissões de CO2 equivalente da sua energia elétrica, do combustível do carro e do gás de cozinha, com fatores oficiais brasileiros | navegador, CLI/API |
 | Calculadora de Permissões chmod (Linux e Unix) | `chmod` | Converte permissões de arquivos entre o formato numérico (755) e o simbólico (rwxr-xr-x) e explica o que cada classe pode fazer | navegador, CLI/API |
 | Calculadora de INSS | `inss` | Calcula a contribuição ao INSS do empregado, do autônomo, do plano simplificado e do MEI | navegador, CLI/API |
 | Calculadora de Imposto de Renda (mensal, na fonte) | `imposto-renda` | Calcula o imposto de renda retido na fonte sobre salário, com dependentes, pensão e a redução da Lei 15.270/2025 | navegador, CLI/API |
@@ -220,12 +223,14 @@ JSON, SQL, HTML, CSS e Markdown.
 | Formatador de HTML | `html` | Indenta e organiza código HTML, mantendo blocos <pre>, <code> e <textarea> intactos | navegador, CLI/API |
 | Formatador de Markdown | `markdown` | Padroniza listas, títulos, tabelas, espaçamento e quebras de linha em documentos Markdown | navegador, CLI/API |
 
-## Ferramentas PDF (8)
+## Ferramentas PDF (10)
 
 Unir, dividir, converter e proteger PDFs.
 
 | Ferramenta | Id | O que faz | Onde roda |
 |---|---|---|---|
+| PDF para Word (texto) | `pdf-para-word` | Converte o texto de um PDF em um documento Word (.docx) editável, com títulos, parágrafos e listas; não mantém colunas, tabelas nem imagens | só navegador |
+| Word para PDF (formatação básica) | `word-para-pdf` | Converte um documento Word (.docx) em PDF mantendo títulos, parágrafos, listas, negrito e itálico; imagens e tabelas complexas não são mantidas | navegador, CLI/API |
 | Unir PDFs | `pdf-unir` | Junta vários arquivos PDF em um só, na ordem em que você os enviar | navegador, CLI/API |
 | Dividir PDF | `pdf-dividir` | Extrai páginas ou divide um PDF por intervalos, a cada N páginas ou página por página | navegador, CLI/API |
 | Numerar Páginas de PDF | `pdf-numerar-paginas` | Adiciona a numeração de páginas em um PDF, com posição, formato e número inicial à sua escolha | navegador, CLI/API |
@@ -235,12 +240,13 @@ Unir, dividir, converter e proteger PDFs.
 | Remover Senha de PDF | `pdf-remover-senha` | Gera uma cópia sem senha de um PDF protegido, desde que você informe a senha correta | navegador, CLI/API |
 | PDF para JPG | `pdf-para-jpg` | Converte as páginas de um PDF em imagens JPG, em um ZIP, com a resolução que você escolher | só navegador |
 
-## Utilidades (11)
+## Utilidades (12)
 
 Imagens, cronômetros, sorteios e mais.
 
 | Ferramenta | Id | O que faz | Onde roda |
 |---|---|---|---|
+| Qual é o Meu IP Público | `ip-publico` | Mostra o endereço IP (IPv4 ou IPv6) com que a sua conexão aparece na internet | só navegador |
 | Comprimir Imagem | `imagem-comprimir` | Reduz o tamanho de fotos JPG e PNG ajustando a qualidade e, se quiser, a dimensão máxima | navegador, CLI/API |
 | Redimensionar Imagem | `imagem-redimensionar` | Muda a largura e a altura de uma imagem em pixels ou em porcentagem, mantendo a proporção | navegador, CLI/API |
 | Converter Imagem | `imagem-converter` | Converte imagens entre JPG e PNG, com fundo configurável para transparências | navegador, CLI/API |
@@ -268,13 +274,7 @@ Modelos prontos em XLSX e CSV.
 | Planilha de Controle de Investimentos | `controle-investimentos` | Gera uma planilha da carteira com valor investido, valor atual, resultado e alocação por tipo de ativo | navegador, CLI/API |
 | Planilha Financeira Pessoal Completa | `planilha-financeira-pessoal` | Gera uma planilha completa com receitas, despesas, resumo mensal, taxa de poupança e patrimônio | navegador, CLI/API |
 
-## Ainda não implementadas (6)
+## Ainda não implementadas (0)
 
 | Ferramenta | Motivo |
 |---|---|
-| Conta bancária (`conta-bancaria`) | depende de regras por instituição com especificação confiável; hoje só há o IBAN |
-| Moedas (`moeda`) | exige fonte externa de cotações com data de referência (Fase 6, via API) |
-| Pegada de carbono (`pegada-carbono`) | exige fatores de emissão oficiais (IPCC/MCTI) conferidos e datados antes de publicar |
-| PDF para Word (`pdf-para-word`) | exige conversão de layout fora do alcance de bibliotecas leves; avaliar serviço dedicado (Fase 6) |
-| Word para PDF (`word-para-pdf`) | exige LibreOffice ou equivalente no servidor (Fase 6) |
-| IP público (`ip-publico`) | precisa consultar um serviço externo (Fase 6, via API) |

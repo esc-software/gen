@@ -2,7 +2,7 @@
 
 O CLI (`esc-gen`) e a extensão do VS Code usam as bibliotecas abaixo, cada uma sob a sua própria licença. A lista inclui as dependências diretas e as transitivas de produção. Gerado por `scripts/third-party-notices.mjs`.
 
-Total: 280 pacotes.
+Total: 299 pacotes.
 
 | Pacote | Versão | Licença |
 |---|---|---|
@@ -13,8 +13,10 @@ Total: 280 pacotes.
 | @noble/hashes | 1.8.0 | MIT |
 | @nodable/entities | 3.1.0 | MIT |
 | @one-ini/wasm | 0.1.1 | MIT |
+| @types/node | 26.6.5 | MIT |
 | @types/node | 14.18.63 | MIT |
 | @types/pako | 2.0.4 | MIT |
+| @xmldom/xmldom | 0.8.15 | MIT |
 | abbrev | 2.0.0 | ISC |
 | ansi-regex | 6.4.0 | MIT |
 | ansi-regex | 5.0.1 | MIT |
@@ -24,6 +26,7 @@ Total: 280 pacotes.
 | archiver | 5.3.2 | MIT |
 | archiver-utils | 2.1.0 | MIT |
 | archiver-utils | 3.0.4 | MIT |
+| argparse | 1.0.10 | MIT |
 | argparse | 2.0.1 | Python-2.0 |
 | array-buffer-byte-length | 1.0.2 | MIT |
 | arraybuffer.prototype.slice | 1.0.4 | MIT |
@@ -72,7 +75,10 @@ Total: 280 pacotes.
 | define-data-property | 1.1.4 | MIT |
 | define-properties | 1.2.1 | MIT |
 | dijkstrajs | 1.0.3 | MIT |
+| dingbat-to-unicode | 1.0.2 | BSD-2-Clause |
 | discontinuous-range | 1.0.0 | MIT |
+| docx | 9.12.0 | MIT |
+| duck | 0.1.12 | BSD |
 | dunder-proto | 1.0.1 | MIT |
 | duplexer2 | 0.1.4 | BSD-3-Clause |
 | eastasianwidth | 0.2.0 | MIT |
@@ -117,6 +123,7 @@ Total: 280 pacotes.
 | has-proto | 1.2.0 | MIT |
 | has-symbols | 1.1.0 | MIT |
 | has-tostringtag | 1.0.2 | MIT |
+| hash.js | 1.1.7 | MIT |
 | hasown | 2.0.4 | MIT |
 | html-entities | 2.6.0 | MIT |
 | ieee754 | 1.2.1 | BSD-3-Clause |
@@ -175,15 +182,19 @@ Total: 280 pacotes.
 | lodash.isundefined | 3.0.1 | MIT |
 | lodash.union | 4.6.0 | MIT |
 | lodash.uniq | 4.5.0 | MIT |
+| lop | 0.4.2 | BSD-2-Clause |
 | lru-cache | 10.4.3 | ISC |
+| mammoth | 1.13.0 | BSD-2-Clause |
 | math-intrinsics | 1.1.0 | MIT |
 | mdn-data | 2.0.28 | CC0-1.0 |
+| minimalistic-assert | 1.0.1 | ISC |
 | minimatch | 3.1.5 | ISC |
 | minimatch | 5.1.9 | ISC |
 | minimatch | 9.0.9 | ISC |
 | minipass | 7.1.3 | BlueOak-1.0.0 |
 | mkdirp | 3.0.1 | MIT |
 | moo | 0.5.3 | BSD-3-Clause |
+| nanoid | 6.0.2 | MIT |
 | nearley | 2.20.1 | MIT |
 | node-html-better-parser | 1.5.9 | MIT |
 | nopt | 7.2.1 | ISC |
@@ -192,6 +203,7 @@ Total: 280 pacotes.
 | object-keys | 1.1.1 | MIT |
 | object.assign | 4.1.7 | MIT |
 | once | 1.4.0 | ISC |
+| option | 0.2.4 | BSD-2-Clause |
 | own-keys | 1.0.2 | MIT |
 | p-limit | 2.3.0 | MIT |
 | p-locate | 4.1.0 | MIT |
@@ -228,6 +240,7 @@ Total: 280 pacotes.
 | safe-buffer | 5.2.1 | MIT |
 | safe-push-apply | 1.0.0 | MIT |
 | safe-regex-test | 1.1.0 | MIT |
+| sax | 1.6.1 | BlueOak-1.0.0 |
 | saxes | 5.0.1 | ISC |
 | semver | 7.8.5 | ISC |
 | set-blocking | 2.0.0 | ISC |
@@ -243,6 +256,7 @@ Total: 280 pacotes.
 | side-channel-weakmap | 1.0.2 | MIT |
 | signal-exit | 4.1.0 | ISC |
 | source-map-js | 1.2.2 | BSD-3-Clause |
+| sprintf-js | 1.0.3 | BSD-3-Clause |
 | sql-formatter | 15.9.0 | MIT |
 | stop-iteration-iterator | 1.1.0 | MIT |
 | string_decoder | 1.1.1 | MIT |
@@ -265,6 +279,8 @@ Total: 280 pacotes.
 | typed-array-length | 1.0.8 | MIT |
 | typedarray.prototype.slice | 1.0.6 | MIT |
 | unbox-primitive | 1.1.0 | MIT |
+| underscore | 1.13.8 | MIT |
+| undici-types | 8.9.0 | MIT |
 | unzipper | 0.10.14 | MIT |
 | util-deprecate | 1.0.2 | MIT |
 | uuid | 8.3.2 | MIT |
@@ -278,6 +294,9 @@ Total: 280 pacotes.
 | wrap-ansi | 7.0.0 | MIT |
 | wrap-ansi | 6.2.0 | MIT |
 | wrappy | 1.0.2 | ISC |
+| xml | 1.0.1 | MIT |
+| xml-js | 1.6.11 | MIT |
+| xmlbuilder | 10.1.1 | MIT |
 | xmlchars | 2.2.0 | MIT |
 | y18n | 4.0.3 | ISC |
 | yaml | 2.9.1 | ISC |
@@ -400,7 +419,7 @@ THE SOFTWARE.
 
 ### Texto 5
 
-Pacotes: @nodable/entities@3.1.0, binary@0.3.0, buffers@0.1.1, chainsaw@0.1.0, eastasianwidth@0.2.0, isarray@1.0.0, mkdirp@3.0.1, railroad-diagrams@1.0.0, saxes@5.0.1
+Pacotes: @nodable/entities@3.1.0, binary@0.3.0, buffers@0.1.1, chainsaw@0.1.0, eastasianwidth@0.2.0, hash.js@1.1.7, isarray@1.0.0, mkdirp@3.0.1, railroad-diagrams@1.0.0, saxes@5.0.1
 
 ```text
 (sem arquivo de licença no pacote)
@@ -436,7 +455,7 @@ SOFTWARE.
 
 ### Texto 7
 
-Pacotes: @types/node@14.18.63, @types/pako@2.0.4
+Pacotes: @types/node@26.6.5, @types/node@14.18.63, @types/pako@2.0.4
 
 ```text
 MIT License
@@ -463,6 +482,21 @@ MIT License
 ```
 
 ### Texto 8
+
+Pacotes: @xmldom/xmldom@0.8.15
+
+```text
+Copyright 2019 - present Christopher J. Brody and other contributors, as listed in: https://github.com/xmldom/xmldom/graphs/contributors
+Copyright 2012 - 2017 @jindw <jindw@xidea.org> and other contributors, as listed in: https://github.com/jindw/xmldom/graphs/contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
+
+### Texto 9
 
 Pacotes: abbrev@2.0.0
 
@@ -515,7 +549,7 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 9
+### Texto 10
 
 Pacotes: ansi-regex@6.4.0, ansi-styles@6.2.3, string-width@5.1.2, strip-ansi@7.2.0, wrap-ansi@8.1.0, wrap-ansi@7.0.0
 
@@ -531,7 +565,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 10
+### Texto 11
 
 Pacotes: ansi-regex@5.0.1, ansi-styles@4.3.0, camelcase@5.3.1, find-up@4.1.0, is-fullwidth-code-point@3.0.0, locate-path@5.0.0, p-limit@2.3.0, p-locate@4.1.0, p-try@2.2.0, path-exists@4.0.0, path-key@3.1.1, shebang-regex@3.0.0, string-width@4.2.3, strip-ansi@6.0.1, wrap-ansi@6.2.0
 
@@ -547,7 +581,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 11
+### Texto 12
 
 Pacotes: anynum@1.0.1, fast-xml-builder@1.3.1, is-unsafe@2.0.2
 
@@ -575,7 +609,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 12
+### Texto 13
 
 Pacotes: archiver@5.3.2
 
@@ -604,7 +638,7 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 13
+### Texto 14
 
 Pacotes: archiver-utils@2.1.0
 
@@ -633,7 +667,7 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 14
+### Texto 15
 
 Pacotes: archiver-utils@3.0.4
 
@@ -662,7 +696,35 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 15
+### Texto 16
+
+Pacotes: argparse@1.0.10
+
+```text
+(The MIT License)
+
+Copyright (C) 2012 by Vitaly Puzrin
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+```
+
+### Texto 17
 
 Pacotes: argparse@2.0.1
 
@@ -923,7 +985,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
 OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### Texto 16
+### Texto 18
 
 Pacotes: array-buffer-byte-length@1.0.2
 
@@ -951,7 +1013,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 17
+### Texto 19
 
 Pacotes: arraybuffer.prototype.slice@1.0.4, typedarray.prototype.slice@1.0.6
 
@@ -979,7 +1041,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 18
+### Texto 20
 
 Pacotes: async@3.2.6
 
@@ -1005,7 +1067,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 19
+### Texto 21
 
 Pacotes: async-function@1.0.0
 
@@ -1033,7 +1095,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 20
+### Texto 22
 
 Pacotes: available-typed-arrays@1.0.7, is-finalizationregistry@1.1.1, is-weakref@1.1.1, typed-array-byte-length@1.0.3, typed-array-byte-offset@1.0.5, typed-array-length@1.0.8
 
@@ -1061,7 +1123,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 21
+### Texto 23
 
 Pacotes: balanced-match@1.0.2
 
@@ -1089,7 +1151,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 22
+### Texto 24
 
 Pacotes: base64-js@1.5.1
 
@@ -1117,7 +1179,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 23
+### Texto 25
 
 Pacotes: big-integer@1.6.52
 
@@ -1148,7 +1210,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 For more information, please refer to <http://unlicense.org>
 ```
 
-### Texto 24
+### Texto 26
 
 Pacotes: bl@4.1.0
 
@@ -1168,7 +1230,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 25
+### Texto 27
 
 Pacotes: bluebird@3.4.7
 
@@ -1196,7 +1258,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 26
+### Texto 28
 
 Pacotes: brace-expansion@1.1.21, brace-expansion@2.1.7, isarray@2.0.5
 
@@ -1224,7 +1286,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 27
+### Texto 29
 
 Pacotes: buffer@5.7.1
 
@@ -1252,7 +1314,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 28
+### Texto 30
 
 Pacotes: buffer-crc32@0.2.13
 
@@ -1278,7 +1340,7 @@ FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TOR
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 29
+### Texto 31
 
 Pacotes: buffer-indexof-polyfill@1.0.2
 
@@ -1306,7 +1368,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 30
+### Texto 32
 
 Pacotes: bwip-js@4.11.4
 
@@ -1336,7 +1398,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 31
+### Texto 33
 
 Pacotes: call-bind@1.0.9, get-intrinsic@1.3.0
 
@@ -1364,7 +1426,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 32
+### Texto 34
 
 Pacotes: call-bind-apply-helpers@1.0.2, call-bound@1.0.4, data-view-byte-length@1.0.2, data-view-byte-offset@1.0.1, es-define-property@1.0.1, es-errors@1.3.0, es-object-atoms@1.1.2, own-keys@1.0.2, possible-typed-array-names@1.1.0, safe-push-apply@1.0.0, set-proto@1.0.0, side-channel-list@1.0.1, side-channel-map@1.0.1
 
@@ -1392,7 +1454,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 33
+### Texto 35
 
 Pacotes: color-convert@2.0.1
 
@@ -1419,7 +1481,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 34
+### Texto 36
 
 Pacotes: color-name@1.1.4
 
@@ -1434,7 +1496,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 35
+### Texto 37
 
 Pacotes: commander@13.1.0, commander@10.0.1, commander@2.20.3
 
@@ -1463,7 +1525,7 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 36
+### Texto 38
 
 Pacotes: compress-commons@4.1.2, crc32-stream@4.0.3, zip-stream@4.1.1
 
@@ -1492,7 +1554,7 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 37
+### Texto 39
 
 Pacotes: concat-map@0.0.1
 
@@ -1517,7 +1579,7 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 38
+### Texto 40
 
 Pacotes: config-chain@1.1.13
 
@@ -1546,7 +1608,7 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 39
+### Texto 41
 
 Pacotes: core-util-is@1.0.3
 
@@ -1572,7 +1634,7 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 IN THE SOFTWARE.
 ```
 
-### Texto 40
+### Texto 42
 
 Pacotes: crc-32@1.2.2
 
@@ -1780,7 +1842,7 @@ Apache License
    limitations under the License.
 ```
 
-### Texto 41
+### Texto 43
 
 Pacotes: cross-spawn@7.0.6
 
@@ -1808,7 +1870,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 42
+### Texto 44
 
 Pacotes: css-tree@2.2.1
 
@@ -1834,7 +1896,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 43
+### Texto 45
 
 Pacotes: csso@5.0.5
 
@@ -1861,7 +1923,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 44
+### Texto 46
 
 Pacotes: culori@4.0.2
 
@@ -1889,7 +1951,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 45
+### Texto 47
 
 Pacotes: data-view-buffer@1.0.2, define-data-property@1.1.4, safe-array-concat@1.1.4, stop-iteration-iterator@1.1.0, typed-array-buffer@1.0.3
 
@@ -1917,7 +1979,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 46
+### Texto 48
 
 Pacotes: dayjs@1.11.23
 
@@ -1945,7 +2007,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 47
+### Texto 49
 
 Pacotes: decamelize@1.2.0, path-is-absolute@1.0.1
 
@@ -1973,7 +2035,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 48
+### Texto 50
 
 Pacotes: define-properties@1.2.1, es-abstract@1.24.2
 
@@ -2001,7 +2063,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 49
+### Texto 51
 
 Pacotes: dijkstrajs@1.0.3
 
@@ -2027,7 +2089,36 @@ THE SOFTWARE.
 ```
 ```
 
-### Texto 50
+### Texto 52
+
+Pacotes: dingbat-to-unicode@1.0.2
+
+```text
+Copyright (c) 2021, Michael Williamson
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
+
+### Texto 53
 
 Pacotes: discontinuous-range@1.0.0
 
@@ -2055,7 +2146,64 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 51
+### Texto 54
+
+Pacotes: docx@9.12.0
+
+```text
+The MIT License (MIT)
+
+Copyright (c) 2016 Dolan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+### Texto 55
+
+Pacotes: duck@0.1.12, lop@0.4.2, mammoth@1.13.0, option@0.2.4
+
+```text
+Copyright (c) 2013, Michael Williamson
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met: 
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer. 
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution. 
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
+
+### Texto 56
 
 Pacotes: dunder-proto@1.0.1, math-intrinsics@1.1.0
 
@@ -2083,7 +2231,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 52
+### Texto 57
 
 Pacotes: duplexer2@0.1.4
 
@@ -2116,7 +2264,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-### Texto 53
+### Texto 58
 
 Pacotes: editorconfig@1.0.7
 
@@ -2142,7 +2290,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 54
+### Texto 59
 
 Pacotes: emoji-regex@9.2.2, emoji-regex@8.0.0
 
@@ -2169,7 +2317,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 55
+### Texto 60
 
 Pacotes: end-of-stream@1.4.5, tar-stream@2.2.0
 
@@ -2197,7 +2345,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 56
+### Texto 61
 
 Pacotes: es-abstract-get@1.0.0
 
@@ -2225,7 +2373,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 57
+### Texto 62
 
 Pacotes: es-set-tostringtag@2.1.0
 
@@ -2253,7 +2401,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 58
+### Texto 63
 
 Pacotes: es-to-primitive@1.3.4, is-boolean-object@1.2.2, is-callable@1.2.7, is-date-object@1.1.0, is-number-object@1.1.1, is-string@1.1.1, is-symbol@1.1.1, is-typed-array@1.1.15, string.prototype.trim@1.2.11, which-typed-array@1.1.24
 
@@ -2281,7 +2429,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 59
+### Texto 64
 
 Pacotes: exceljs@4.4.0
 
@@ -2309,7 +2457,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 60
+### Texto 65
 
 Pacotes: fast-png@6.4.0
 
@@ -2337,7 +2485,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 61
+### Texto 66
 
 Pacotes: fast-xml-parser@5.11.2
 
@@ -2365,7 +2513,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 62
+### Texto 67
 
 Pacotes: fflate@0.8.3
 
@@ -2393,7 +2541,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 63
+### Texto 68
 
 Pacotes: for-each@0.3.5
 
@@ -2421,7 +2569,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 64
+### Texto 69
 
 Pacotes: foreground-child@3.3.1
 
@@ -2443,7 +2591,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### Texto 65
+### Texto 70
 
 Pacotes: fs-constants@1.0.0
 
@@ -2471,7 +2619,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 66
+### Texto 71
 
 Pacotes: fs.realpath@1.0.0
 
@@ -2521,7 +2669,7 @@ the licensed code:
   DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 67
+### Texto 72
 
 Pacotes: fstream@1.0.12, ini@1.3.8, isexe@2.0.0, minimatch@3.1.5, nopt@7.2.1, once@1.4.0, proto-list@1.2.4, rimraf@2.7.1, semver@7.8.5, which@2.0.2, wrappy@1.0.2
 
@@ -2543,7 +2691,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### Texto 68
+### Texto 73
 
 Pacotes: function-bind@1.1.2
 
@@ -2569,7 +2717,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 69
+### Texto 74
 
 Pacotes: function.prototype.name@1.2.0, globalthis@1.0.4
 
@@ -2597,7 +2745,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 70
+### Texto 75
 
 Pacotes: functions-have-names@1.2.3, has-bigints@1.1.0, internal-slot@1.1.0, side-channel@1.1.1, side-channel-weakmap@1.0.2, unbox-primitive@1.1.0, which-boxed-primitive@1.1.1
 
@@ -2625,7 +2773,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 71
+### Texto 76
 
 Pacotes: generator-function@2.0.1
 
@@ -2639,7 +2787,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 72
+### Texto 77
 
 Pacotes: get-caller-file@2.0.5
 
@@ -2652,7 +2800,7 @@ Permission to use, copy, modify, and/or distribute this software for any purpose
 THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### Texto 73
+### Texto 78
 
 Pacotes: get-proto@1.0.1
 
@@ -2680,7 +2828,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 74
+### Texto 79
 
 Pacotes: get-symbol-description@1.1.0, has-tostringtag@1.0.2, is-shared-array-buffer@1.0.4
 
@@ -2708,7 +2856,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 75
+### Texto 80
 
 Pacotes: glob@7.2.3
 
@@ -2736,7 +2884,7 @@ under a Creative Commons Attribution-ShareAlike 4.0 International License
 https://creativecommons.org/licenses/by-sa/4.0/
 ```
 
-### Texto 76
+### Texto 81
 
 Pacotes: glob@10.5.0
 
@@ -2758,7 +2906,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### Texto 77
+### Texto 82
 
 Pacotes: gopd@1.2.0, safe-regex-test@1.1.0
 
@@ -2786,7 +2934,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 78
+### Texto 83
 
 Pacotes: graceful-fs@4.2.11
 
@@ -2808,7 +2956,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### Texto 79
+### Texto 84
 
 Pacotes: has-property-descriptors@1.0.2, has-proto@1.2.0
 
@@ -2836,7 +2984,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 80
+### Texto 85
 
 Pacotes: has-symbols@1.1.0
 
@@ -2864,7 +3012,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 81
+### Texto 86
 
 Pacotes: hasown@2.0.4, set-function-length@1.2.2, set-function-name@2.0.2
 
@@ -2892,7 +3040,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 82
+### Texto 87
 
 Pacotes: html-entities@2.6.0
 
@@ -2918,7 +3066,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 83
+### Texto 88
 
 Pacotes: ieee754@1.2.1
 
@@ -2936,7 +3084,7 @@ Redistribution and use in source and binary forms, with or without modification,
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-### Texto 84
+### Texto 89
 
 Pacotes: immediate@3.0.6
 
@@ -2963,7 +3111,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 85
+### Texto 90
 
 Pacotes: inflight@1.0.6
 
@@ -2985,7 +3133,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### Texto 86
+### Texto 91
 
 Pacotes: inherits@2.0.4
 
@@ -3007,7 +3155,7 @@ OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### Texto 87
+### Texto 92
 
 Pacotes: iobuffer@5.4.0
 
@@ -3035,7 +3183,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 88
+### Texto 93
 
 Pacotes: is-array-buffer@3.0.5
 
@@ -3063,7 +3211,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 89
+### Texto 94
 
 Pacotes: is-async-function@2.1.1
 
@@ -3090,7 +3238,7 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 90
+### Texto 95
 
 Pacotes: is-bigint@1.1.0
 
@@ -3118,7 +3266,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 91
+### Texto 96
 
 Pacotes: is-data-view@1.0.2
 
@@ -3146,7 +3294,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 92
+### Texto 97
 
 Pacotes: is-document.all@1.0.0
 
@@ -3174,7 +3322,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 93
+### Texto 98
 
 Pacotes: is-generator-function@1.1.2, is-negative-zero@2.0.3, is-regex@1.2.1
 
@@ -3201,7 +3349,7 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 94
+### Texto 99
 
 Pacotes: is-map@2.0.3, is-set@2.0.3, is-weakmap@2.0.2, is-weakset@2.0.4, which-collection@1.0.2
 
@@ -3229,7 +3377,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 95
+### Texto 100
 
 Pacotes: jackspeak@3.4.3
 
@@ -3291,7 +3439,7 @@ will be liable to anyone for any damages related to this
 software or this license, under any kind of legal claim._**
 ```
 
-### Texto 96
+### Texto 101
 
 Pacotes: jpeg-js@0.4.4
 
@@ -3323,7 +3471,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-### Texto 97
+### Texto 102
 
 Pacotes: js-beautify@1.15.4
 
@@ -3339,7 +3487,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 98
+### Texto 103
 
 Pacotes: js-cookie@3.0.8
 
@@ -3367,7 +3515,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 99
+### Texto 104
 
 Pacotes: jszip@3.10.2
 
@@ -4025,7 +4173,7 @@ copy of the Program in return for a fee.
                      END OF TERMS AND CONDITIONS
 ```
 
-### Texto 100
+### Texto 105
 
 Pacotes: lazystream@1.0.1
 
@@ -4054,7 +4202,7 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 101
+### Texto 106
 
 Pacotes: lie@3.3.0
 
@@ -4068,7 +4216,7 @@ The above copyright notice and this permission notice shall be included in all c
 **THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.**
 ```
 
-### Texto 102
+### Texto 107
 
 Pacotes: listenercount@1.0.1
 
@@ -4080,7 +4228,7 @@ Permission to use, copy, modify, and/or distribute this software for any purpose
 THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### Texto 103
+### Texto 108
 
 Pacotes: lodash.defaults@4.2.0, lodash.difference@4.5.0, lodash.escaperegexp@4.1.2, lodash.flatten@4.4.0, lodash.groupby@4.6.0, lodash.isplainobject@4.0.6, lodash.union@4.6.0, lodash.uniq@4.5.0
 
@@ -4134,7 +4282,7 @@ licenses; we recommend you read them, as their terms may differ from the
 terms above.
 ```
 
-### Texto 104
+### Texto 109
 
 Pacotes: lodash.isboolean@3.0.3, lodash.isnil@4.0.0
 
@@ -4163,7 +4311,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 105
+### Texto 110
 
 Pacotes: lodash.isequal@4.5.0, lodash.isfunction@3.0.9
 
@@ -4217,7 +4365,7 @@ licenses; we recommend you read them, as their terms may differ from the
 terms above.
 ```
 
-### Texto 106
+### Texto 111
 
 Pacotes: lodash.isundefined@3.0.1
 
@@ -4246,7 +4394,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 107
+### Texto 112
 
 Pacotes: lru-cache@10.4.3
 
@@ -4268,7 +4416,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### Texto 108
+### Texto 113
 
 Pacotes: mdn-data@2.0.28
 
@@ -4391,7 +4539,27 @@ For more information, please see
 <http://creativecommons.org/publicdomain/zero/1.0/>
 ```
 
-### Texto 109
+### Texto 114
+
+Pacotes: minimalistic-assert@1.0.1
+
+```text
+Copyright 2015 Calvin Metcalf
+
+Permission to use, copy, modify, and/or distribute this software for any purpose
+with or without fee is hereby granted, provided that the above copyright notice
+and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE
+OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+```
+
+### Texto 115
 
 Pacotes: minimatch@5.1.9, minimatch@9.0.9
 
@@ -4413,9 +4581,9 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### Texto 110
+### Texto 116
 
-Pacotes: minipass@7.1.3, path-scurry@1.11.1
+Pacotes: minipass@7.1.3, path-scurry@1.11.1, sax@1.6.1
 
 ```text
 # Blue Oak Model License
@@ -4475,7 +4643,7 @@ will be liable to anyone for any damages related to this
 software or this license, under any kind of legal claim.***
 ```
 
-### Texto 111
+### Texto 117
 
 Pacotes: moo@0.5.3
 
@@ -4511,7 +4679,34 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-### Texto 112
+### Texto 118
+
+Pacotes: nanoid@6.0.2
+
+```text
+The MIT License (MIT)
+
+Copyright 2017 Andrey Sitnik <andrey@sitnik.es>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
+
+### Texto 119
 
 Pacotes: nearley@2.20.1
 
@@ -4539,7 +4734,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 113
+### Texto 120
 
 Pacotes: node-html-better-parser@1.5.9
 
@@ -4553,7 +4748,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 114
+### Texto 121
 
 Pacotes: normalize-path@3.0.0
 
@@ -4581,7 +4776,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 115
+### Texto 122
 
 Pacotes: object-inspect@1.13.4
 
@@ -4609,7 +4804,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 116
+### Texto 123
 
 Pacotes: object-keys@1.1.1
 
@@ -4637,7 +4832,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 117
+### Texto 124
 
 Pacotes: object.assign@4.1.7
 
@@ -4665,7 +4860,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 118
+### Texto 125
 
 Pacotes: package-json-from-dist@1.0.1
 
@@ -4735,7 +4930,7 @@ will be liable to anyone for any damages related to this
 software or this license, under any kind of legal claim.***
 ```
 
-### Texto 119
+### Texto 126
 
 Pacotes: pako@1.0.11, pako@2.2.0
 
@@ -4763,7 +4958,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 120
+### Texto 127
 
 Pacotes: papaparse@5.7.0
 
@@ -4790,7 +4985,7 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 121
+### Texto 128
 
 Pacotes: path-expression-matcher@1.6.2
 
@@ -4818,7 +5013,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 122
+### Texto 129
 
 Pacotes: pdfjs-dist@4.10.38
 
@@ -5001,7 +5196,7 @@ Apache License
    END OF TERMS AND CONDITIONS
 ```
 
-### Texto 123
+### Texto 130
 
 Pacotes: pngjs@5.0.0
 
@@ -5028,7 +5223,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 124
+### Texto 131
 
 Pacotes: prettier@3.9.10
 
@@ -5042,7 +5237,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 125
+### Texto 132
 
 Pacotes: process-nextick-args@2.0.1
 
@@ -5068,7 +5263,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.**
 ```
 
-### Texto 126
+### Texto 133
 
 Pacotes: qrcode@1.5.4
 
@@ -5084,7 +5279,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 127
+### Texto 134
 
 Pacotes: randexp@0.4.6, ret@0.1.15
 
@@ -5110,7 +5305,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 128
+### Texto 135
 
 Pacotes: readable-stream@2.3.8, readable-stream@3.6.2, string_decoder@1.1.1, string_decoder@1.3.0
 
@@ -5164,7 +5359,7 @@ IN THE SOFTWARE.
 """
 ```
 
-### Texto 129
+### Texto 136
 
 Pacotes: readdir-glob@1.1.3
 
@@ -5372,7 +5567,7 @@ Apache License
    limitations under the License.
 ```
 
-### Texto 130
+### Texto 137
 
 Pacotes: reflect.getprototypeof@1.0.10
 
@@ -5400,7 +5595,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 131
+### Texto 138
 
 Pacotes: regexp.prototype.flags@1.5.4
 
@@ -5428,7 +5623,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 132
+### Texto 139
 
 Pacotes: require-directory@2.1.1
 
@@ -5457,7 +5652,7 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 133
+### Texto 140
 
 Pacotes: require-main-filename@2.0.0, set-blocking@2.0.0, yargs-parser@18.1.3
 
@@ -5478,7 +5673,7 @@ WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
 ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### Texto 134
+### Texto 141
 
 Pacotes: safe-buffer@5.1.2, safe-buffer@5.2.1
 
@@ -5506,7 +5701,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 135
+### Texto 142
 
 Pacotes: setimmediate@1.0.5
 
@@ -5533,7 +5728,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 136
+### Texto 143
 
 Pacotes: shebang-command@2.0.0
 
@@ -5549,7 +5744,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 137
+### Texto 144
 
 Pacotes: signal-exit@4.1.0
 
@@ -5572,7 +5767,7 @@ WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,
 ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### Texto 138
+### Texto 145
 
 Pacotes: source-map-js@1.2.2
 
@@ -5606,7 +5801,38 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-### Texto 139
+### Texto 146
+
+Pacotes: sprintf-js@1.0.3
+
+```text
+Copyright (c) 2007-2014, Alexandru Marasteanu <hello [at) alexei (dot] ro>
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+* Redistributions of source code must retain the above copyright
+  notice, this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright
+  notice, this list of conditions and the following disclaimer in the
+  documentation and/or other materials provided with the distribution.
+* Neither the name of this software nor the names of its contributors may be
+  used to endorse or promote products derived from this software without
+  specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
+
+### Texto 147
 
 Pacotes: sql-formatter@15.9.0
 
@@ -5636,7 +5862,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 140
+### Texto 148
 
 Pacotes: string.prototype.trimend@1.0.10, string.prototype.trimstart@1.0.8
 
@@ -5664,7 +5890,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 141
+### Texto 149
 
 Pacotes: strnum@2.5.1
 
@@ -5692,7 +5918,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 142
+### Texto 150
 
 Pacotes: tmp@0.2.7
 
@@ -5720,7 +5946,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 143
+### Texto 151
 
 Pacotes: traverse@0.3.10
 
@@ -5748,7 +5974,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 144
+### Texto 152
 
 Pacotes: tslib@2.8.1
 
@@ -5767,7 +5993,64 @@ OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### Texto 145
+### Texto 153
+
+Pacotes: underscore@1.13.8
+
+```text
+Copyright (c) 2009-2022 Jeremy Ashkenas, Julian Gonggrijp, and DocumentCloud and Investigative Reporters & Editors
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+```
+
+### Texto 154
+
+Pacotes: undici-types@8.9.0
+
+```text
+MIT License
+
+Copyright (c) Matteo Collina and Undici contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+### Texto 155
 
 Pacotes: unzipper@0.10.14
 
@@ -5799,7 +6082,7 @@ Commits in this fork are (c) Ziggy Jonsson (ziggy.jonsson.nyc@gmail.com)
 and fall under same licence structure as the original repo (MIT)
 ```
 
-### Texto 146
+### Texto 156
 
 Pacotes: util-deprecate@1.0.2
 
@@ -5830,7 +6113,7 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 147
+### Texto 157
 
 Pacotes: uuid@8.3.2
 
@@ -5846,7 +6129,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 148
+### Texto 158
 
 Pacotes: which-builtin-type@1.2.1
 
@@ -5874,7 +6157,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 149
+### Texto 159
 
 Pacotes: which-module@2.0.1
 
@@ -5894,7 +6177,92 @@ TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
 THIS SOFTWARE.
 ```
 
-### Texto 150
+### Texto 160
+
+Pacotes: xml@1.0.1
+
+```text
+(The MIT License)
+
+Copyright (c) 2011-2016 Dylan Greene <dylang@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
+
+### Texto 161
+
+Pacotes: xml-js@1.6.11
+
+```text
+The MIT License (MIT)
+
+Copyright (c) 2016-2017 Yousuf Almarzooqi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+### Texto 162
+
+Pacotes: xmlbuilder@10.1.1
+
+```text
+The MIT License (MIT)
+
+Copyright (c) 2013 Ozgur Ozcitak
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+```
+
+### Texto 163
 
 Pacotes: xmlchars@2.2.0
 
@@ -5919,7 +6287,7 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### Texto 151
+### Texto 164
 
 Pacotes: y18n@4.0.3
 
@@ -5939,7 +6307,7 @@ TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
 THIS SOFTWARE.
 ```
 
-### Texto 152
+### Texto 165
 
 Pacotes: yaml@2.9.1
 
@@ -5959,7 +6327,7 @@ TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
 THIS SOFTWARE.
 ```
 
-### Texto 153
+### Texto 166
 
 Pacotes: yargs@15.4.1
 
@@ -5987,7 +6355,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
-### Texto 154
+### Texto 167
 
 Pacotes: zod@3.25.76
 
@@ -6015,7 +6383,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### Texto 155
+### Texto 168
 
 Pacotes: zod-to-json-schema@3.25.2
 

@@ -9,6 +9,11 @@
       "source": "./src/index.ts",
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
+    },
+    "./lite": {
+      "source": "./src/lite.ts",
+      "types": "./dist/lite.d.ts",
+      "default": "./dist/lite.js"
     }
   },
   "scripts": {

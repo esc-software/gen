@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.0
+- 3 ferramentas novas no terminal e na extensão: **validador de conta bancária** (Banco do Brasil, Bradesco e Itaú), **pegada de carbono** (fatores do MCTI e do Programa GHG Protocol) e **Word para PDF** (formatação básica). O CLI passa a ter 199 ferramentas.
+- Word para PDF depende de mammoth e docx (instalados com o pacote); nada muda no uso local, sem rede e sem telemetria.
+
 ## 0.3.0
 - 16 novas ferramentas: **CLT ou PJ**, **custo de um funcionário**, **DAS MEI**, **markup e preço de venda**, **CDB, LCI/LCA e poupança**, **validador de boleto** (47, 48 e 44 dígitos), **HMAC**, **ULID**, **explicador de cron**, **chmod**, **px para rem**, **comparador de textos (diff)**, **entidades HTML**, **YAML para JSON**, **JSON para CSV** e **código Morse**. O CLI passa a ter 196 ferramentas.
 - Todas rodam 100% local, sem rede, e têm testes com vetores públicos (RFC 4231 no HMAC, especificação do ULID).

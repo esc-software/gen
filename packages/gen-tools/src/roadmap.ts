@@ -78,7 +78,7 @@ export const ROADMAP: readonly RoadmapItem[] = [
   item('validadores', 'numero-primo', 'Número primo'),
   item('validadores', 'placa-veiculo', 'Placa de veículo'),
   item('validadores', 'renavam', 'RENAVAM'),
-  item('validadores', 'conta-bancaria', 'Conta bancária', 'depende de regras por instituição com especificação confiável; hoje só há o IBAN'),
+  item('validadores', 'conta-bancaria', 'Conta bancária'),
   item('validadores', 'chave-pix', 'Chave Pix'),
   item('validadores', 'pis-pasep', 'PIS/PASEP'),
   item('validadores', 'titulo-eleitor', 'Título de eleitor'),
@@ -95,7 +95,7 @@ export const ROADMAP: readonly RoadmapItem[] = [
   // ---------- conversores ----------
   item('conversores', 'timestamp', 'Data e timestamp'),
   item('conversores', 'cores', 'Cores'),
-  item('conversores', 'moeda', 'Moedas', 'exige fonte externa de cotações com data de referência (Fase 6, via API)'),
+  item('conversores', 'moeda', 'Moedas'),
   item('conversores', 'temperatura', 'Temperatura'),
   item('conversores', 'base64', 'Base64'),
   item('conversores', 'conversor-texto', 'Texto (maiúsculas, minúsculas...)'),
@@ -136,7 +136,7 @@ export const ROADMAP: readonly RoadmapItem[] = [
     ] as const
   ).map(([id, name]) => item('calculadoras', id, name)),
 
-  item('calculadoras', 'pegada-carbono', 'Pegada de carbono', 'exige fatores de emissão oficiais (IPCC/MCTI) conferidos e datados antes de publicar'),
+  item('calculadoras', 'pegada-carbono', 'Pegada de carbono'),
 
   item('geradores', 'jwt', 'JWT'),
   item('geradores', 'gerador-loteria', 'Números da loteria'),
@@ -172,18 +172,18 @@ export const ROADMAP: readonly RoadmapItem[] = [
 
   // ---------- PDF ----------
   item('pdf', 'pdf-unir', 'Unir PDFs'),
-  item('pdf', 'pdf-para-word', 'PDF para Word', 'exige conversão de layout fora do alcance de bibliotecas leves; avaliar serviço dedicado (Fase 6)'),
+  item('pdf', 'pdf-para-word', 'PDF para Word (texto)'),
   item('pdf', 'jpg-para-pdf', 'JPG para PDF'),
   item('pdf', 'pdf-para-jpg', 'PDF para JPG'),
   item('pdf', 'pdf-comprimir', 'Comprimir PDF'),
   item('pdf', 'pdf-dividir', 'Dividir PDF'),
-  item('pdf', 'word-para-pdf', 'Word para PDF', 'exige LibreOffice ou equivalente no servidor (Fase 6)'),
+  item('pdf', 'word-para-pdf', 'Word para PDF (formatação básica)'),
   item('pdf', 'pdf-proteger', 'Proteger PDF com senha'),
   item('pdf', 'pdf-remover-senha', 'Remover senha de PDF'),
   item('pdf', 'pdf-numerar-paginas', 'Numerar páginas'),
 
   // ---------- utilidades ----------
-  item('utilidades', 'ip-publico', 'IP público', 'precisa consultar um serviço externo (Fase 6, via API)'),
+  item('utilidades', 'ip-publico', 'IP público'),
   item('utilidades', 'cronometro', 'Cronômetro'),
   item('utilidades', 'temporizador', 'Temporizador'),
   item('utilidades', 'imagem-comprimir', 'Comprimir imagem'),

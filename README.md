@@ -38,7 +38,7 @@ Guia completo: [docs/cli.md](docs/cli.md) e [gen.esc-software.com/cli](https://g
 
 1. Baixe o arquivo `gen-vscode-*.vsix` na [última versão](https://github.com/esc-software/gen/releases/latest).
 2. No VS Code: **Extensões** → menu `…` → **Instalar do VSIX…** e escolha o arquivo.
-   Ou pelo terminal: `code --install-extension gen-vscode-0.3.0.vsix`.
+   Ou pelo terminal: `code --install-extension gen-vscode-0.4.0.vsix`.
 3. Abra a paleta (`Ctrl+Shift+P`) e digite **Gen**.
 
 Guia completo: [docs/vscode.md](docs/vscode.md) e [gen.esc-software.com/vscode](https://gen.esc-software.com/vscode).

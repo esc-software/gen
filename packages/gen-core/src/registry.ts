@@ -1,5 +1,8 @@
 import type { CategoryId } from './categories.js';
 import type { Tool, ToolResult } from './tool.js';
+import { normalizeText } from './text.js';
+
+export { normalizeText };
 
 export interface ToolRegistry {
   /** Registra uma ferramenta. Lança se o id já existir (a menos que `replace` seja true). */
@@ -14,11 +17,6 @@ export interface ToolRegistry {
   /** Executa pelo id; devolve `not_found` em vez de lançar. */
   run(id: string, rawInput: unknown): Promise<ToolResult>;
   readonly size: number;
-}
-
-/** Minúsculas e sem acentos, para busca tolerante. */
-export function normalizeText(text: string): string {
-  return text.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 }
 
 export function createRegistry(): ToolRegistry {
