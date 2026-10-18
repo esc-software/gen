@@ -2,9 +2,9 @@
 
 > Gerado do registro por `catalog-doc.ts`; não edite à mão. Para atualizar: `UPDATE_DOCS=1 bunx vitest run packages/gen-tools/src/catalog-doc.test.ts`.
 
-**185 ferramentas.** "CLI/API" indica que a ferramenta também roda no Node (CLI, API e extensão do VS Code); as marcadas "só navegador" dependem de recursos do navegador.
+**201 ferramentas.** "CLI/API" indica que a ferramenta também roda no Node (CLI, API e extensão do VS Code); as marcadas "só navegador" dependem de recursos do navegador.
 
-## Geradores (45)
+## Geradores (47)
 
 Dados de teste, identificadores, tokens e textos.
 
@@ -55,8 +55,10 @@ Dados de teste, identificadores, tokens e textos.
 | Gerador de RG Demonstrativo | `rg` | Gera números de RG sintéticos no modelo de São Paulo, apenas para testar formulários | navegador, CLI/API |
 | Gerador e Decodificador de JWT | `jwt` | Gera JWT assinado (HS256, HS384, HS512), decodifica o conteúdo de um token e verifica a assinatura | navegador, CLI/API |
 | Gerador de Números da Loteria | `gerador-loteria` | Sorteia dezenas para Mega-Sena, Quina, Lotofácil, Dia de Sorte, Dupla Sena e Lotomania, quantas apostas você quiser | navegador, CLI/API |
+| Gerador de HMAC (SHA-256, SHA-384 e SHA-512) | `hmac` | Calcula o HMAC de uma mensagem com uma chave secreta, em hexadecimal ou Base64, para assinar e conferir webhooks e APIs | navegador, CLI/API |
+| Gerador e Decodificador de ULID | `ulid` | Gera ULIDs (identificadores únicos ordenáveis por tempo) e descobre a data e a hora embutidas em um ULID | navegador, CLI/API |
 
-## Validadores (19)
+## Validadores (20)
 
 Documentos, formatos e estruturas.
 
@@ -81,6 +83,7 @@ Documentos, formatos e estruturas.
 | Verificador de Número Primo | `numero-primo` | Verifica se um número é primo e, se não for, mostra a decomposição em fatores primos | navegador, CLI/API |
 | Verificador de Senha Forte | `senha-forte` | Avalia a força de uma senha e aponta o que melhorar, sem enviá-la a nenhum servidor | navegador, CLI/API |
 | Testador de Expressões Regulares | `regex` | Valida uma expressão regular (JavaScript) e mostra as correspondências e os grupos capturados | navegador, CLI/API |
+| Validador de Boleto (Linha Digitável e Código de Barras) | `validador-boleto` | Confere os dígitos verificadores da linha digitável ou do código de barras de um boleto e mostra banco, valor e vencimento | navegador, CLI/API |
 
 ## Contadores (5)
 
@@ -94,7 +97,7 @@ Palavras, caracteres, linhas e datas.
 | Contador de Sílabas | `contador-silabas` | Estima o número de sílabas de palavras e textos em português | navegador, CLI/API |
 | Contador de Dias entre Datas | `dias-entre-datas` | Calcula quantos dias, semanas, meses e anos existem entre duas datas | navegador, CLI/API |
 
-## Conversores (19)
+## Conversores (25)
 
 Codificações, unidades, datas e formatos.
 
@@ -119,8 +122,14 @@ Codificações, unidades, datas e formatos.
 | Codificador e Decodificador de URL | `url-encode` | Codifica e decodifica texto em formato de URL (percent-encoding) | navegador, CLI/API |
 | Conversor de Números Romanos | `numeros-romanos` | Converte números arábicos em romanos e romanos em arábicos, de 1 a 3999 | navegador, CLI/API |
 | Conversor de JSON para XML e XML para JSON | `json-xml` | Converte JSON em XML e XML em JSON, com indentação opcional e validação com linha e coluna do erro | navegador, CLI/API |
+| Explicador de Expressão Cron | `cron` | Entende uma expressão cron de 5 campos em português e mostra as próximas execuções, com suporte a intervalos, listas, passos, nomes e atalhos como @daily | navegador, CLI/API |
+| Conversor de px para rem, em, pt e vw | `px-rem` | Converte tamanhos CSS entre pixels, rem, em, pontos, vw e porcentagem, com o tamanho base da fonte e a largura da tela que você escolher | navegador, CLI/API |
+| Codificar e Decodificar Entidades HTML | `html-entities` | Converte caracteres especiais e acentos em entidades HTML (&amp;, &aacute;, &#233;) e decodifica o caminho inverso | navegador, CLI/API |
+| Conversor de YAML para JSON | `yaml-json` | Converte YAML (docker-compose, Kubernetes, GitHub Actions, OpenAPI) em JSON válido, apontando a linha de qualquer erro | navegador, CLI/API |
+| Conversor de JSON para CSV | `json-csv` | Converte uma lista de objetos JSON em CSV para abrir no Excel ou Google Planilhas, com colunas aninhadas achatadas (a.b) e proteção contra fórmulas | navegador, CLI/API |
+| Tradutor de Código Morse | `codigo-morse` | Traduz texto para código Morse e Morse para texto, com a tabela internacional de letras, números e pontuação | navegador, CLI/API |
 
-## Calculadoras (64)
+## Calculadoras (70)
 
 Finanças, saúde, trabalho e dia a dia.
 
@@ -177,6 +186,12 @@ Finanças, saúde, trabalho e dia a dia.
 | Calculadora de Expectativa de Vida | `expectativa-vida` | Mostra quantos dias você já viveu e a expectativa de vida restante, pela média da população brasileira (IBGE) | navegador, CLI/API |
 | Calculadora de Equação do 2º Grau (Bhaskara) | `equacao-segundo-grau` | Resolve equações do 2º grau pela fórmula de Bhaskara, mostrando o delta, as raízes e o passo a passo | navegador, CLI/API |
 | Calculadora de MMC e MDC | `mmc-mdc` | Calcula o mínimo múltiplo comum (MMC) e o máximo divisor comum (MDC) de dois ou mais números, com a fatoração | navegador, CLI/API |
+| Calculadora CLT ou PJ: qual compensa mais? | `clt-vs-pj` | Compara o ganho líquido de um emprego CLT (com 13º, férias, FGTS e benefícios) com o de um contrato PJ no Simples ou MEI, e mostra quanto o PJ precisa faturar para empatar | navegador, CLI/API |
+| Calculadora do Custo de um Funcionário para a Empresa | `custo-funcionario` | Calcula quanto um funcionário CLT custa de verdade por mês: salário, 13º, férias com 1/3, FGTS, INSS patronal, RAT, terceiros e benefícios, no Simples ou no lucro presumido | navegador, CLI/API |
+| Calculadora do DAS MEI (valor da guia mensal) | `das-mei` | Mostra o valor do DAS do MEI por atividade (comércio, serviços ou os dois), o custo no ano, o limite de faturamento e o que acontece se passar dele | navegador, CLI/API |
+| Calculadora de Markup e Preço de Venda | `markup` | Calcula o preço de venda a partir do custo, dos impostos, da comissão e da margem de lucro desejada, e mostra a diferença entre markup e margem | navegador, CLI/API |
+| Simulador de CDB, LCI/LCA e Poupança | `renda-fixa` | Compara quanto rendem CDB, LCI/LCA e poupança no mesmo prazo, já descontado o imposto de renda regressivo, com as taxas que você informar | navegador, CLI/API |
+| Calculadora de Permissões chmod (Linux e Unix) | `chmod` | Converte permissões de arquivos entre o formato numérico (755) e o simbólico (rwxr-xr-x) e explica o que cada classe pode fazer | navegador, CLI/API |
 | Calculadora de INSS | `inss` | Calcula a contribuição ao INSS do empregado, do autônomo, do plano simplificado e do MEI | navegador, CLI/API |
 | Calculadora de Imposto de Renda (mensal, na fonte) | `imposto-renda` | Calcula o imposto de renda retido na fonte sobre salário, com dependentes, pensão e a redução da Lei 15.270/2025 | navegador, CLI/API |
 | Calculadora de Salário Líquido (CLT) | `salario-liquido` | Calcula o salário líquido a partir do bruto, descontando INSS, imposto de renda, vale-transporte e outros descontos | navegador, CLI/API |
@@ -191,13 +206,14 @@ Finanças, saúde, trabalho e dia a dia.
 | Calculadora de Aposentadoria (INSS) | `aposentadoria` | Verifica a elegibilidade pelas regras permanente e de transição por pontos e idade mínima da Reforma da Previdência e estima a data e o valor | navegador, CLI/API |
 | Calculadora de Salário Líquido PJ e Pró-labore | `salario-pj` | Estima impostos e o ganho líquido de quem fatura como MEI ou como empresa no Simples Nacional, com pró-labore e distribuição de lucros | navegador, CLI/API |
 
-## Formatadores (6)
+## Formatadores (7)
 
 JSON, SQL, HTML, CSS e Markdown.
 
 | Ferramenta | Id | O que faz | Onde roda |
 |---|---|---|---|
 | Remover Linhas Duplicadas e Ordenar Texto | `linhas-texto` | Remove linhas duplicadas ou vazias, ordena em ordem alfabética ou numérica, inverte e embaralha as linhas de uma lista | navegador, CLI/API |
+| Comparador de Textos (Diff Online) | `diff-texto` | Compara dois textos linha a linha e mostra o que foi adicionado, removido e mantido, com contagem de mudanças | navegador, CLI/API |
 | Formatador e Validador de JSON | `json` | Formata, minifica e valida JSON, indicando a linha e a coluna de cada erro | navegador, CLI/API |
 | Formatador de SQL | `sql` | Formata consultas SQL com indentação, quebras de linha e caixa das palavras-chave, para vários dialetos | navegador, CLI/API |
 | Minificador de CSS | `css-minify` | Reduz o tamanho do CSS removendo espaços, comentários e redundâncias, sem alterar o resultado visual | navegador, CLI/API |

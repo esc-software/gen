@@ -146,6 +146,24 @@ export const ROADMAP: readonly RoadmapItem[] = [
   item('conversores', 'json-xml', 'JSON e XML'),
   item('formatadores', 'linhas-texto', 'Linhas de texto (duplicadas, ordem)'),
 
+  // ---------- lote de tráfego (calculadoras de dinheiro, boleto, desenvolvimento) ----------
+  item('calculadoras', 'clt-vs-pj', 'CLT ou PJ'),
+  item('calculadoras', 'custo-funcionario', 'Custo de um funcionário'),
+  item('calculadoras', 'das-mei', 'DAS MEI'),
+  item('calculadoras', 'markup', 'Markup e preço de venda'),
+  item('calculadoras', 'renda-fixa', 'CDB, LCI/LCA e poupança'),
+  item('validadores', 'validador-boleto', 'Boleto (linha digitável)'),
+  item('geradores', 'hmac', 'HMAC'),
+  item('geradores', 'ulid', 'ULID'),
+  item('conversores', 'cron', 'Expressão cron'),
+  item('calculadoras', 'chmod', 'Permissões chmod'),
+  item('conversores', 'px-rem', 'px, rem, em e pt'),
+  item('formatadores', 'diff-texto', 'Comparador de textos'),
+  item('conversores', 'html-entities', 'Entidades HTML'),
+  item('conversores', 'yaml-json', 'YAML para JSON'),
+  item('conversores', 'json-csv', 'JSON para CSV'),
+  item('conversores', 'codigo-morse', 'Código Morse'),
+
   // ---------- formatadores ----------
   item('formatadores', 'sql', 'SQL'),
   item('formatadores', 'css-minify', 'Minificador de CSS'),

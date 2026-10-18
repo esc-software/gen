@@ -23,7 +23,7 @@ describe('gen cli', () => {
   it('--version imprime a versão e sai com 0', async () => {
     const { buf, io } = capture();
     expect(await run(['--version'], io)).toBe(0);
-    expect(buf.out.trim()).toBe('0.2.0');
+    expect(buf.out.trim()).toBe('0.3.0');
   });
 
   it('comando desconhecido sai com código diferente de zero e escreve em stderr', async () => {

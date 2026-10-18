@@ -15,7 +15,7 @@
     },
     "apps/cli": {
       "name": "esc-gen",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "bin": {
         "gen": "./dist/bin.js",
       },
@@ -48,7 +48,7 @@
     },
     "apps/vscode": {
       "name": "gen-vscode",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "devDependencies": {
         "@esc/gen-core": "workspace:*",
         "@esc/gen-tools": "workspace:*",

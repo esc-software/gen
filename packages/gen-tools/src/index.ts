@@ -36,6 +36,12 @@ import { lotteryTool } from './lottery.js';
 import { gcdLcmTool, quadraticTool, romanTool } from './math-tools.js';
 import { lineListTool } from './text-lists.js';
 import { xmlJsonTool } from './xml-json.js';
+import { chmodTool, hmacTool, htmlEntitiesTool, morseTool, pxRemTool, ulidTool } from './dev-tools.js';
+import { cronTool } from './cron.js';
+import { textDiffTool } from './text-diff.js';
+import { jsonCsvTool, yamlJsonTool } from './convert-tools.js';
+import { boletoValidatorTool } from './boleto.js';
+import { cltVsPjTool, employeeCostTool, fixedIncomeTool, markupTool, meiDasTool } from './money-tools.js';
 import { fgtsTool, incomeTaxTool, inssTool, netSalaryTool, nightShiftTool, overtimeTool, thirteenthTool, transportVoucherTool, vacationTool } from './payroll.js';
 import { domesticTerminationTool, pjSalaryTool, retirementTool, terminationTool } from './payroll2.js';
 
@@ -120,6 +126,9 @@ export const tools: readonly Tool[] = [
   numerologyTool, ascendantTool, enemTool, lifeExpectancyTool,
   // novas (SEO e uso): JWT, loteria, matemática, listas e conversão JSON/XML
   jwtTool, lotteryTool, quadraticTool, gcdLcmTool, romanTool, lineListTool, xmlJsonTool,
+  // novas (tráfego): calculadoras de dinheiro, boleto e utilidades de desenvolvimento
+  cltVsPjTool, employeeCostTool, meiDasTool, markupTool, fixedIncomeTool, boletoValidatorTool,
+  hmacTool, ulidTool, cronTool, chmodTool, pxRemTool, textDiffTool, htmlEntitiesTool, yamlJsonTool, jsonCsvTool, morseTool,
   inssTool, incomeTaxTool, netSalaryTool, thirteenthTool, vacationTool, fgtsTool, transportVoucherTool, overtimeTool, nightShiftTool,
   terminationTool, domesticTerminationTool, retirementTool, pjSalaryTool,
   // planilhas
@@ -212,6 +221,12 @@ export * from './lottery.js';
 export * from './math-tools.js';
 export * from './text-lists.js';
 export * from './xml-json.js';
+export * from './dev-tools.js';
+export * from './cron.js';
+export * from './text-diff.js';
+export * from './convert-tools.js';
+export * from './boleto.js';
+export * from './money-tools.js';
 export * from './payroll.js';
 export * from './payroll2.js';
 export * from './payroll-data.js';
