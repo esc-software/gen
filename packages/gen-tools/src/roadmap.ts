@@ -138,6 +138,14 @@ export const ROADMAP: readonly RoadmapItem[] = [
 
   item('calculadoras', 'pegada-carbono', 'Pegada de carbono', 'exige fatores de emissão oficiais (IPCC/MCTI) conferidos e datados antes de publicar'),
 
+  item('geradores', 'jwt', 'JWT'),
+  item('geradores', 'gerador-loteria', 'Números da loteria'),
+  item('calculadoras', 'equacao-segundo-grau', 'Equação do 2º grau (Bhaskara)'),
+  item('calculadoras', 'mmc-mdc', 'MMC e MDC'),
+  item('conversores', 'numeros-romanos', 'Números romanos'),
+  item('conversores', 'json-xml', 'JSON e XML'),
+  item('formatadores', 'linhas-texto', 'Linhas de texto (duplicadas, ordem)'),
+
   // ---------- formatadores ----------
   item('formatadores', 'sql', 'SQL'),
   item('formatadores', 'css-minify', 'Minificador de CSS'),

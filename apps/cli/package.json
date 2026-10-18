@@ -1,6 +1,6 @@
 {
   "name": "esc-gen",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Ferramentas do Gen (ESC Software) no terminal: geradores e validadores de CPF, CNPJ e outros, calculadoras, conversores, PDF e imagens. Local, sem rede.",
   "type": "module",
   "bin": {

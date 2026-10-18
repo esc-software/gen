@@ -3,7 +3,7 @@
 Ferramentas do [Gen](https://gen.esc-software.com) dentro do editor: gere CPF e CNPJ de teste, UUIDs e senhas, formate JSON e converta Base64 sem sair do VS Code. Tudo roda localmente, sem rede e sem telemetria. Código aberto (MIT).
 
 ## Instalar
-Baixe o `.vsix` na [última versão](https://github.com/esc-software/gen/releases/latest) e use **Extensões → … → Instalar do VSIX…** (ou `code --install-extension gen-vscode-0.1.0.vsix`).
+Baixe o `.vsix` na [última versão](https://github.com/esc-software/gen/releases/latest) e use **Extensões → … → Instalar do VSIX…** (ou `code --install-extension gen-vscode-0.2.0.vsix`).
 
 ## Comandos (`Ctrl+Shift+P` → "Gen")
 - **Executar ferramenta…**: mais de 100 ferramentas; a seleção atual entra no primeiro campo de texto; copie, insira ou abra o resultado.

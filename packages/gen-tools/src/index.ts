@@ -31,6 +31,11 @@ import { ageTool, barbecueTool, businessDaysTool, concreteTool, dateCalculatorTo
 import { bmiTool, bmrTool, caloriesTool, dogAgeTool, idealWeightTool, macrosTool, menstrualCycleTool, ovulationTool, pregnancyTool } from './calc-health.js';
 import { ascendantTool, enemTool, numerologyTool } from './calc-fun.js';
 import { lifeExpectancyTool } from './calc-life.js';
+import { jwtTool } from './jwt.js';
+import { lotteryTool } from './lottery.js';
+import { gcdLcmTool, quadraticTool, romanTool } from './math-tools.js';
+import { lineListTool } from './text-lists.js';
+import { xmlJsonTool } from './xml-json.js';
 import { fgtsTool, incomeTaxTool, inssTool, netSalaryTool, nightShiftTool, overtimeTool, thirteenthTool, transportVoucherTool, vacationTool } from './payroll.js';
 import { domesticTerminationTool, pjSalaryTool, retirementTool, terminationTool } from './payroll2.js';
 
@@ -113,6 +118,8 @@ export const tools: readonly Tool[] = [
   workedHoursTool, dateCalculatorTool, businessDaysTool, ageTool, sleepCycleTool,
   bmiTool, bmrTool, caloriesTool, idealWeightTool, macrosTool, pregnancyTool, ovulationTool, menstrualCycleTool, dogAgeTool,
   numerologyTool, ascendantTool, enemTool, lifeExpectancyTool,
+  // novas (SEO e uso): JWT, loteria, matemática, listas e conversão JSON/XML
+  jwtTool, lotteryTool, quadraticTool, gcdLcmTool, romanTool, lineListTool, xmlJsonTool,
   inssTool, incomeTaxTool, netSalaryTool, thirteenthTool, vacationTool, fgtsTool, transportVoucherTool, overtimeTool, nightShiftTool,
   terminationTool, domesticTerminationTool, retirementTool, pjSalaryTool,
   // planilhas
@@ -200,6 +207,11 @@ export * from './calc-daily.js';
 export * from './calc-health.js';
 export * from './calc-fun.js';
 export * from './calc-life.js';
+export * from './jwt.js';
+export * from './lottery.js';
+export * from './math-tools.js';
+export * from './text-lists.js';
+export * from './xml-json.js';
 export * from './payroll.js';
 export * from './payroll2.js';
 export * from './payroll-data.js';

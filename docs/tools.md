@@ -2,9 +2,9 @@
 
 > Gerado do registro por `catalog-doc.ts`; não edite à mão. Para atualizar: `UPDATE_DOCS=1 bunx vitest run packages/gen-tools/src/catalog-doc.test.ts`.
 
-**178 ferramentas.** "CLI/API" indica que a ferramenta também roda no Node (CLI, API e extensão do VS Code); as marcadas "só navegador" dependem de recursos do navegador.
+**185 ferramentas.** "CLI/API" indica que a ferramenta também roda no Node (CLI, API e extensão do VS Code); as marcadas "só navegador" dependem de recursos do navegador.
 
-## Geradores (43)
+## Geradores (45)
 
 Dados de teste, identificadores, tokens e textos.
 
@@ -53,6 +53,8 @@ Dados de teste, identificadores, tokens e textos.
 | Gerador de Política de Privacidade (LGPD) | `politica-privacidade` | Gera um modelo de política de privacidade conforme a LGPD com base nos dados que o seu site realmente coleta | navegador, CLI/API |
 | Gerador de Personagens para Colorir | `personagem-colorir` | Cria desenhos de monstrinhos, robôs e gatos em linhas pretas para imprimir e colorir | navegador, CLI/API |
 | Gerador de RG Demonstrativo | `rg` | Gera números de RG sintéticos no modelo de São Paulo, apenas para testar formulários | navegador, CLI/API |
+| Gerador e Decodificador de JWT | `jwt` | Gera JWT assinado (HS256, HS384, HS512), decodifica o conteúdo de um token e verifica a assinatura | navegador, CLI/API |
+| Gerador de Números da Loteria | `gerador-loteria` | Sorteia dezenas para Mega-Sena, Quina, Lotofácil, Dia de Sorte, Dupla Sena e Lotomania, quantas apostas você quiser | navegador, CLI/API |
 
 ## Validadores (19)
 
@@ -92,7 +94,7 @@ Palavras, caracteres, linhas e datas.
 | Contador de Sílabas | `contador-silabas` | Estima o número de sílabas de palavras e textos em português | navegador, CLI/API |
 | Contador de Dias entre Datas | `dias-entre-datas` | Calcula quantos dias, semanas, meses e anos existem entre duas datas | navegador, CLI/API |
 
-## Conversores (17)
+## Conversores (19)
 
 Codificações, unidades, datas e formatos.
 
@@ -115,8 +117,10 @@ Codificações, unidades, datas e formatos.
 | Conversor de Tamanho de Arquivo | `tamanho-arquivo` | Converte entre bytes, KB, MB, GB, TB e PB, no padrão decimal (1000) ou binário (1024) | navegador, CLI/API |
 | Conversor Binário, Decimal e Hexadecimal | `bases-numericas` | Converte números entre as bases 2, 8, 10 e 16, sem limite de tamanho | navegador, CLI/API |
 | Codificador e Decodificador de URL | `url-encode` | Codifica e decodifica texto em formato de URL (percent-encoding) | navegador, CLI/API |
+| Conversor de Números Romanos | `numeros-romanos` | Converte números arábicos em romanos e romanos em arábicos, de 1 a 3999 | navegador, CLI/API |
+| Conversor de JSON para XML e XML para JSON | `json-xml` | Converte JSON em XML e XML em JSON, com indentação opcional e validação com linha e coluna do erro | navegador, CLI/API |
 
-## Calculadoras (62)
+## Calculadoras (64)
 
 Finanças, saúde, trabalho e dia a dia.
 
@@ -171,6 +175,8 @@ Finanças, saúde, trabalho e dia a dia.
 | Calculadora de Ascendente | `ascendente` | Calcula o signo ascendente e o signo solar a partir da data, hora e local de nascimento | navegador, CLI/API |
 | Calculadora de Nota do ENEM | `nota-enem` | Calcula a média simples e a média ponderada das cinco notas do ENEM com os pesos do curso | navegador, CLI/API |
 | Calculadora de Expectativa de Vida | `expectativa-vida` | Mostra quantos dias você já viveu e a expectativa de vida restante, pela média da população brasileira (IBGE) | navegador, CLI/API |
+| Calculadora de Equação do 2º Grau (Bhaskara) | `equacao-segundo-grau` | Resolve equações do 2º grau pela fórmula de Bhaskara, mostrando o delta, as raízes e o passo a passo | navegador, CLI/API |
+| Calculadora de MMC e MDC | `mmc-mdc` | Calcula o mínimo múltiplo comum (MMC) e o máximo divisor comum (MDC) de dois ou mais números, com a fatoração | navegador, CLI/API |
 | Calculadora de INSS | `inss` | Calcula a contribuição ao INSS do empregado, do autônomo, do plano simplificado e do MEI | navegador, CLI/API |
 | Calculadora de Imposto de Renda (mensal, na fonte) | `imposto-renda` | Calcula o imposto de renda retido na fonte sobre salário, com dependentes, pensão e a redução da Lei 15.270/2025 | navegador, CLI/API |
 | Calculadora de Salário Líquido (CLT) | `salario-liquido` | Calcula o salário líquido a partir do bruto, descontando INSS, imposto de renda, vale-transporte e outros descontos | navegador, CLI/API |
@@ -185,12 +191,13 @@ Finanças, saúde, trabalho e dia a dia.
 | Calculadora de Aposentadoria (INSS) | `aposentadoria` | Verifica a elegibilidade pelas regras permanente e de transição por pontos e idade mínima da Reforma da Previdência e estima a data e o valor | navegador, CLI/API |
 | Calculadora de Salário Líquido PJ e Pró-labore | `salario-pj` | Estima impostos e o ganho líquido de quem fatura como MEI ou como empresa no Simples Nacional, com pró-labore e distribuição de lucros | navegador, CLI/API |
 
-## Formatadores (5)
+## Formatadores (6)
 
 JSON, SQL, HTML, CSS e Markdown.
 
 | Ferramenta | Id | O que faz | Onde roda |
 |---|---|---|---|
+| Remover Linhas Duplicadas e Ordenar Texto | `linhas-texto` | Remove linhas duplicadas ou vazias, ordena em ordem alfabética ou numérica, inverte e embaralha as linhas de uma lista | navegador, CLI/API |
 | Formatador e Validador de JSON | `json` | Formata, minifica e valida JSON, indicando a linha e a coluna de cada erro | navegador, CLI/API |
 | Formatador de SQL | `sql` | Formata consultas SQL com indentação, quebras de linha e caixa das palavras-chave, para vários dialetos | navegador, CLI/API |
 | Minificador de CSS | `css-minify` | Reduz o tamanho do CSS removendo espaços, comentários e redundâncias, sem alterar o resultado visual | navegador, CLI/API |

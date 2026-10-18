@@ -5,7 +5,7 @@ Geradores, validadores e conversores do Gen dentro do editor. Requer o Visual St
 ## Instalar
 1. Baixe o arquivo `gen-vscode-*.vsix` na [última versão](https://github.com/esc-software/gen/releases/latest).
 2. No VS Code, abra **Extensões** (`Ctrl+Shift+X`), clique nos três pontos do canto superior e escolha **Instalar do VSIX…**; selecione o arquivo.
-   Pelo terminal: `code --install-extension gen-vscode-0.1.0.vsix`.
+   Pelo terminal: `code --install-extension gen-vscode-0.2.0.vsix`.
 3. Reinicie o VS Code se ele pedir.
 
 ## Comandos (`Ctrl+Shift+P`, digite "Gen")
